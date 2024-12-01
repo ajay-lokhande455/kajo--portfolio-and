@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero-section-img {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    scale: 2.0;
+}
+
+.hero-content {
+    width: 50%;
+    height: 100vh;
+    padding: 0 8vh;
+}
+
+.navbar {
+    gap: 110px;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.connection {
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.connection a {
+    Color: #000;
+}
+
+.hero-logo img {
+    padding: 30px 0;
+    width: 300px;
+}
+
+.hero-para p {
+    font-family: Gambetta;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0E101199;
+}
+
+.hero-para p+p {
+    padding-top: 20px;
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 52.4px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0E1011;
+}
+
+.hero-para {
+    margin-top: 50px;
+}
+
+
+ul li a:hover,
+.connection a:hover {
+    color: #007BFF;
+    /* Example hover color */
+}
+
+/* section 2 */
+
+.section-2-content {
+    width: 50%;
+    padding: 8vh;
+}
+
+.about-us {
+
+    font-family: Gambetta;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0E101199;
+
+}
+
+.section-2 h2 {
+    padding: 4vh 0;
+    font-family: Anton SC;
+    font-size: 66px;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.paragraph {
+    color: #0E101199;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.clips svg {
+    width: 530px;
+    padding-top: 20px;
+}
+
+.project-section {
+    background: #F8F8F8;
+}
+
+.project-heading {
+    padding: 8vh;
+}
+
+.project-section h1 {
+
+    font-family: Anton SC;
+    font-size: 220px;
+    font-weight: 400;
+    line-height: 275px;
+    text-align: left;
+
+}
+
+.project-section h4 {
+    width: 75vw;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+
+.project {
+    width: 50%;
+    height: 110vh;
+    position: relative;
+}
+
+.project img {
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.project-name {
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: left;
+
+}
+
+.project-name p+p {
+    font-family: Gambetta;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0E101199;
+
+}
+
+.project svg {
+    left: 240px;
+    position: absolute;
+    z-index: 999;
+    top: 255px;
+    width: 200px;
+}
+
+/* service section */
+.service-heading {
+    padding: 8vh;
+}
+
+.service-section h1 {
+
+    font-family: Anton SC;
+    font-size: 220px;
+    font-weight: 400;
+    line-height: 275px;
+    text-align: left;
+
+}
+
+.service-section h4 {
+    width: 75vw;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+.service-strategy {
+    background: #F8F8F8;
+}
+
+.service-img {
+    width: 40%;
+    height: 80vh;
+}
+
+.service-img img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.service-content {
+    padding: 8vh;
+    width: 60%;
+}
+
+.service-content h2 {
+    font-family: Anton SC;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 94px;
+    text-align: left;
+    width: 400px;
+    padding-top: 10px;
+}
+
+.service-content p {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.service-content .branding-service {
+    font-family: Gambetta;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0E101199;
+    padding-top: 18.5vh;
+}
+
+.branding p {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.6px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    width: 275px;
+}
+
+.rating-heading {
+    padding: 8vh;
+}
+
+.client-rating h1 {
+    font-family: Anton SC;
+    font-size: 114px;
+    font-weight: 400;
+    line-height: 105px;
+    width: 518px;
+    text-align: left;
+    padding-top: 8vh;
+}
+
+.client-rating h4 {
+    font-size: 48px;
+    font-weight: 600;
+    width: 70vw;
+    padding: 30px 0;
+    line-height: 58px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+.rating-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+    height: 70vh;
+
+}
+
+/* .rating-card :first-child,
+:nth-child(3),
+:nth-child(5) {
+    background-color: #F8F8F8;
+} */
+
+/* .rating-card :nth-child(2), :nth-child(4), :nth-child(6) {
+    background-color: #EEEEEE;
+} */
